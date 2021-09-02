@@ -1,0 +1,59 @@
+.card {
+  height: 420px;
+  transition: transform 0.4s;
+}
+
+body {
+  background-image: linear-gradient(
+    140deg,
+    #eadedb 0%,
+    #bc70a4 50%,
+    #bfd641 75%
+  );
+  color: rgb(10, 126, 91) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:98vh;
+}
+
+.card-img-top {
+  height: 180px;
+}
+.card {
+  color: black;
+}
+
+.search-msg-info{
+    color: rgb(61, 48, 57);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    
+}
+.search-msg-success{
+    color: rgb(5, 82, 52);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    
+}
+.search-msg-failed{
+    color: rgb(189, 7, 7);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    
+}
+
+@media only screen and (min-width: 768px) {
+  .card:hover {
+    transform: scale(1.12);
+  }
+}
+
+@media only screen and (max-width: 566px) {
+  .card-img-top {
+    height: 100%;
+  }
+  .card {
+    height: 100%;
+  }
+}
